@@ -42,11 +42,51 @@ O objetivo é avaliar **custos logísticos e imobiliários**, considerando:
 
 ### 1. Clonar o repositório
 ```bash
-git clone https://github.com/usuario/magalu-simulador-cd.git
-cd magalu-simulador-cd
+git clone https://github.com/mcvicentin/simulador_cd_magalu.git
+cd simulador_cd_magalu
 
+```
 ### 2. Instalar dependências
 Crie um ambiente virtual (recomendado) e instale as dependências:
 
 ```bash
 pip install -r requirements.txt
+
+```
+### 3. Executar simulador
+
+**📓 No Jupyter Notebook**
+Abra o **`run_simulation.ipynb`** e use os sliders para variar parâmetros (**`n_entregas`** e **`custo_km`**).
+O notebook gera automaticamente:
+  - Custos totais Recife vs Salvador
+  - Diferença mensal e economia percentual
+  - Gráfico comparativo de custos
+  - Diferença acumulada (até 24 meses)
+
+**💻 No terminal**
+Rode o script de linha de comando:
+
+```bash
+python run_simulation.py
+```
+
+O programa perguntará:
+
+  - Número total de entregas por mês
+  - Custo médio por km
+  - Custos fixos de aluguel (usar default ou inserir manualmente)
+
+Exemplo de saída:
+
+```bash
+Custo Recife:   R$ 17,705,000
+Custo Salvador: R$ 25,295,000
+
+Diferença mensal (Salvador - Recife): R$ 7,590,000
+Economia percentual ao escolher Recife: 30.01%
+```
+
+📁 Reprodutibilidade
+
+  - O arquivo simulador_CD_magalu.ipynb contém todo o pipeline para reconstruir o dataset (cidades_ne150k.csv) do zero, caso seja necessário.
+  - Para uso direto do simulador, basta o CSV (cidades_ne150k.csv) já processado.
