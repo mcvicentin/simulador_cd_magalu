@@ -44,3 +44,6 @@ O objetivo é avaliar **custos logísticos e imobiliários**, considerando:
 ```bash
 git clone https://github.com/usuario/magalu-simulador-cd.git
 cd magalu-simulador-cd
+
+### 2. Instalar dependências
+
