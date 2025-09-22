@@ -1,0 +1,17 @@
+# Núcleo científico
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.8
+
+# Interatividade no Jupyter
+ipywidgets>=8.1
+jupyterlab>=4.0
+
+# Geocodificação e rotas (usados no notebook completo)
+requests>=2.31
+geopy>=2.4
+openrouteservice>=2.3
+
+# Mapas interativos (opcional, mas útil)
+folium>=0.15
+
