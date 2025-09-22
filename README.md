@@ -86,7 +86,7 @@ Diferença mensal (Salvador - Recife): R$ 7,590,000
 Economia percentual ao escolher Recife: 30.01%
 ```
 
-📁 Reprodutibilidade
+**📁 Reprodutibilidade**
 
   - O arquivo simulador_CD_magalu.ipynb contém todo o pipeline para reconstruir o dataset (cidades_ne150k.csv) do zero, caso seja necessário.
   - Para uso direto do simulador, basta o CSV (cidades_ne150k.csv) já processado.
