@@ -1,0 +1,1 @@
+# simulador_cd_magalu
