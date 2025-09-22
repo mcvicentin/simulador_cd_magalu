@@ -46,4 +46,7 @@ git clone https://github.com/usuario/magalu-simulador-cd.git
 cd magalu-simulador-cd
 
 ### 2. Instalar dependências
+Crie um ambiente virtual (recomendado) e instale as dependências:
 
+```bash
+pip install -r requirements.txt
